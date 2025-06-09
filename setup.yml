@@ -1,0 +1,7 @@
+ - name: Deploy ansible
+   hosts: local
+   become: true
+   tasks:
+     - name: Example ansible
+       debug: 
+         msg: "hello ra huuka"
